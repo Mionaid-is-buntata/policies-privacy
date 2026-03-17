@@ -1,0 +1,32 @@
+# Privacy Policy — Còcaidh Creamed
+
+**Last updated:** March 2026
+
+## Summary
+Còcaidh Creamed does not collect, store, transmit, or share any personal data whatsoever.
+
+## Data Collection
+This extension collects **no data**. It does not:
+- Track browsing history
+- Collect or transmit the URLs you visit
+- Store any identifiers or usage statistics
+- Connect to any external servers or APIs
+- Use analytics or crash reporting services
+
+## Permissions Explained
+The extension requests the following permissions, solely to perform its stated function:
+
+| Permission | Why it's needed |
+|---|---|
+| `cookies` | To read and delete cookies for the current site |
+| `storage` | To save your extension preferences (stored locally on your device only) |
+| `activeTab` | To determine which site you're currently on |
+| `scripting` | To clear localStorage and sessionStorage by injecting a short-lived script into the current tab |
+| `contextMenus` | To add a right-click menu option |
+| `host_permissions` (http/https) | Required by Chrome to access and delete cookies across sites |
+
+## Local Storage Only
+The only data stored by this extension is your own settings (e.g. whether auto-reload is enabled). This is saved in Chrome's `storage.local` API, which means it stays on your device and is never transmitted anywhere.
+
+## Contact
+If you have any questions about this privacy policy, please open an issue on the project repository.
